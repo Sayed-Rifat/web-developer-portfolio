@@ -22,7 +22,7 @@ body {
     font-weight: 700;
 }
 .section-description{
-    color: rgb(199, 167, 102);
+    color: rgb(197, 181, 149);
     text-align: center;
     font-size: 18px;
 }
@@ -53,13 +53,13 @@ nav a{
 
 /* header related style */
 .header{
-    background-color: rgb(216, 180, 154);
-    background-image: url(../images/top-banner.png);
+    background-color: rgb(235, 214, 200);
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 0 100px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +70,6 @@ nav a{
 .profile-pic{
     width: 500px;
     height: 600px;
-    padding: 20px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -102,4 +101,7 @@ main{
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px;
 }
