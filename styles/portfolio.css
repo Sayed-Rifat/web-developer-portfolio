@@ -3,11 +3,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
-    color: rgb(209, 52, 24);
+    color: rgb(207, 136, 123);
 }
 .btn-primary{
     border-radius: 5px;
-    background: rgb(216, 73, 21);
+    background: rgb(197, 78, 35);
     padding: 15px 35px;
     border: 0;
     color: rgb(255, 255, 255);
@@ -87,12 +87,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: rgb(241, 199, 144);
+    background: rgb(231, 211, 184);
+    box-shadow: 0px 0px 10px 0px blueviolet;
     margin: 130px;
 }
 .about-info-container{
@@ -104,4 +108,48 @@ main{
 }
 #what-i-do-description{
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: wheat;
+    box-shadow:0px 0px 10px 0px rgb(138, 93, 93);
+}
+.skill-description{
+    color: brown;
+}
+
+/* resume section styles */
+.resume-column-title{
+    color: rgb(86, 134, 182);
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: var(#474747);
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume-item-institute, .resume-item-description{
+    color: dimgray;
+}
+.resume-container{
+    margin: 30px;
+}
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
 }
