@@ -22,7 +22,7 @@ body {
     font-weight: 700;
 }
 .section-description{
-    color: rgb(197, 181, 149);
+    color: rgb(119, 165, 142);
     text-align: center;
     font-size: 18px;
 }
@@ -92,7 +92,7 @@ main{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: white;
+    background: rgb(241, 199, 144);
     margin: 130px;
 }
 .about-info-container{
@@ -103,5 +103,5 @@ main{
     text-align: center;
 }
 #what-i-do-description{
-    padding: 30px;
+    padding: 30px 150px;
 }
